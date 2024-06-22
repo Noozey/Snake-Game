@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(56, 50, 50);
+  font-family: inter;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.grid-box {
+  display: grid;
+  flex-wrap: wrap;
+  border: 1px solid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.boxes {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snake-body {
+  background-color: green;
+}
+.food {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.start-button {
+  border: none;
+  border-radius: 10%;
+  padding: 5px;
+  border: 1px solid;
+}
+.start-button:hover {
+  background-color: rgb(59, 57, 57);
+  border: 1px solid wheat;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+.button {
+  margin-right: auto;
+  display: flex;
+  gap: 10px;
+}
+.menu > h1 {
+  position: absolute;
+}
