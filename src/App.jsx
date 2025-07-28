@@ -69,16 +69,16 @@ const Container = () => {
 
   const handleInput = (e) => {
     switch (e.key) {
-      case "ArrowLeft":
+      case "h":
         setDirection(-1);
         break;
-      case "ArrowRight":
+      case "l":
         setDirection(+1);
         break;
-      case "ArrowUp":
+      case "k":
         setDirection(-10);
         break;
-      case "ArrowDown":
+      case "j":
         setDirection(+10);
         break;
       default:
